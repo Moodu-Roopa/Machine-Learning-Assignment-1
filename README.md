@@ -17,8 +17,11 @@ iii. Use the linear regression method to estimate the slope and intercept for pr
 
 iv. Use the multiple regression method to estimate the value of the
 weights/coefficients for predicting “SalePrice” based on the following features:
+
 a. Model 1: LotFrontage, LotArea
+
 b. Model 2: LotFrontage, LotArea, OverallQual, OverallCond
+
 c. Model 3: LotFrontage, LotArea, OverallQual, OverallCond, 1stFlrSF,
 GrLivArea
 
@@ -28,8 +31,11 @@ using the training set and test set.
 vi. Use the multiple regression method to estimate the value of the
 weights/coefficients for predicting “SalePrice” based on the following set of
 mixed (numerical and categorical) features:
+
 a. Model 4: LotArea, Street
+
 b. Model 5: LotArea, OverallCond, Street, Neighborhood
+
 c. Model 6: LotArea, OverallCond, Street, 1stFlrSF, Neighborhood, Year
 
 vii. Compare the feature “LotArea” weights/coefficients for all the six trained models
